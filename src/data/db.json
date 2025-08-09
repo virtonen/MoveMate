@@ -71,6 +71,18 @@
       "interests": [
         "Foodie Adventures"
       ]
+    },
+    {
+      "user_id": "8ad7f620-d868-4758-87f8-b20ed29de865",
+      "name": "",
+      "email": "",
+      "profile_url": "https://www.linkedin.com/in/virtonen/",
+      "location_intent": "San Francisco",
+      "budget_range": "Under $1,000",
+      "preferences": {},
+      "interests": [
+        "Arts & Culture"
+      ]
     }
   ],
   "neighborhoods": [
@@ -305,6 +317,20 @@
       "user_id": "9a0ebac0-83c2-464e-b559-cc001e77976a",
       "listing_id": "049c86c2-d8bf-4731-8a3d-35b4c0c29867",
       "score": 0.5,
+      "recommendation_reason": ""
+    },
+    {
+      "recommendation_id": "0a353c10-4ce8-4c02-8441-cb2a7657369e",
+      "user_id": "8ad7f620-d868-4758-87f8-b20ed29de865",
+      "listing_id": "405db018-b438-4534-b491-8edb8cdc0bbf",
+      "score": 1.41,
+      "recommendation_reason": ""
+    },
+    {
+      "recommendation_id": "4efd69e8-1187-4e03-94c0-1274057aa221",
+      "user_id": "8ad7f620-d868-4758-87f8-b20ed29de865",
+      "listing_id": "049c86c2-d8bf-4731-8a3d-35b4c0c29867",
+      "score": 1.41,
       "recommendation_reason": ""
     }
   ],
