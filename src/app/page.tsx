@@ -101,7 +101,7 @@ export default function Home() {
           </div>
           <div className="flex-1">
             <h1 className="text-xl font-semibold">MoveMate</h1>
-            <p className="text-sm text-zinc-400">Your personalized moving dashboard</p>
+            <p className="text-sm text-zinc-400">Your AI-powered moving dashboard</p>
           </div>
           <button
             onClick={() => setSubmitted(null)}
