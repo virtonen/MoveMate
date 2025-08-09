@@ -99,10 +99,16 @@ export default function Home() {
           <div className="relative h-10 w-10">
             <Image src="/uploads/MoveMate.jpg" alt="MoveMate" fill className="object-contain" />
           </div>
-          <div>
+          <div className="flex-1">
             <h1 className="text-xl font-semibold">MoveMate</h1>
             <p className="text-sm text-zinc-400">Your personalized moving dashboard</p>
           </div>
+          <button
+            onClick={() => setSubmitted(null)}
+            className="rounded-md border border-zinc-700 px-3 py-1.5 text-sm text-zinc-200 hover:border-zinc-500"
+          >
+            Return
+          </button>
         </header>
         <section className="mt-8 rounded-xl border border-zinc-800 bg-zinc-900/40 p-6">
           <h2 className="text-lg font-medium">Thanks! Your dashboard is being prepared.</h2>
@@ -121,11 +127,14 @@ export default function Home() {
         </div>
         <div>
           <h1 className="text-xl font-semibold">MoveMate</h1>
-          <p className="text-sm text-zinc-400">Effortlessly create your custom moving dashboard</p>
+          <p className="text-sm text-zinc-400">Create your personalized moving dashboard powered by AI</p>
         </div>
       </header>
 
-      <p className="mt-4 text-sm text-zinc-400">Guiding you through neighborhood insights, housing listings, and application processes.</p>
+      <div className="mt-4 space-y-2">
+        <p className="text-sm text-zinc-300 font-medium">Tired of scrolling through hundreds of listings?</p>
+        <p className="text-sm text-zinc-400">Leave it to the AI. Get a custom modular dashboard with handpicked recommendations based on your lifestyle, budget, and preferences. <span className="text-zinc-300">All your data stays private and yours.</span></p>
+      </div>
 
       <form onSubmit={onSubmit} className="mt-6 space-y-6 pb-28">
         <Section title="1. Personal Interests" hint="Select activities you enjoy" error={errors.interests}>

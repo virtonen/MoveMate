@@ -23,6 +23,42 @@
       "interests": [
         "Running"
       ]
+    },
+    {
+      "user_id": "b4e036e0-f339-4912-ad4f-f18f94d1a518",
+      "name": "",
+      "email": "",
+      "profile_url": "https://www.linkedin.com/in/virtonen/",
+      "location_intent": "San Francisco",
+      "budget_range": "Under $1,000",
+      "preferences": {},
+      "interests": [
+        "Running"
+      ]
+    },
+    {
+      "user_id": "45ec8bad-8c14-4f91-a81a-e6d4bbc3df9d",
+      "name": "",
+      "email": "",
+      "profile_url": "https://www.linkedin.com/in/virtonen/",
+      "location_intent": "San Francisco",
+      "budget_range": "Under $1,000",
+      "preferences": {},
+      "interests": [
+        "Arts & Culture"
+      ]
+    },
+    {
+      "user_id": "7f063fb9-740e-47e4-bdad-65381a312320",
+      "name": "",
+      "email": "",
+      "profile_url": "https://www.linkedin.com/in/virtonen/",
+      "location_intent": "San Francisco",
+      "budget_range": "$1,000–$1,500",
+      "preferences": {},
+      "interests": [
+        "Arts & Culture"
+      ]
     }
   ],
   "neighborhoods": [
@@ -199,6 +235,48 @@
     {
       "recommendation_id": "762e147c-eeed-4c67-b37d-f676e3da026e",
       "user_id": "3422a53b-7182-4d2c-a7d3-2b3b2cd19a09",
+      "listing_id": "049c86c2-d8bf-4731-8a3d-35b4c0c29867",
+      "score": 1.41,
+      "recommendation_reason": ""
+    },
+    {
+      "recommendation_id": "ac01bd05-c9d6-44c6-bffe-e92b66f92719",
+      "user_id": "b4e036e0-f339-4912-ad4f-f18f94d1a518",
+      "listing_id": "405db018-b438-4534-b491-8edb8cdc0bbf",
+      "score": 1.41,
+      "recommendation_reason": ""
+    },
+    {
+      "recommendation_id": "e9ae7b33-4ab3-4b81-b719-7fd36b34aba1",
+      "user_id": "b4e036e0-f339-4912-ad4f-f18f94d1a518",
+      "listing_id": "049c86c2-d8bf-4731-8a3d-35b4c0c29867",
+      "score": 1.41,
+      "recommendation_reason": ""
+    },
+    {
+      "recommendation_id": "6f1dd56a-e03d-475c-8586-c40633f2b03a",
+      "user_id": "45ec8bad-8c14-4f91-a81a-e6d4bbc3df9d",
+      "listing_id": "405db018-b438-4534-b491-8edb8cdc0bbf",
+      "score": 1.41,
+      "recommendation_reason": ""
+    },
+    {
+      "recommendation_id": "e6d6593d-e7ac-459a-b0ce-4cc01b5876e3",
+      "user_id": "45ec8bad-8c14-4f91-a81a-e6d4bbc3df9d",
+      "listing_id": "049c86c2-d8bf-4731-8a3d-35b4c0c29867",
+      "score": 1.41,
+      "recommendation_reason": ""
+    },
+    {
+      "recommendation_id": "1ff504ae-881c-4f74-be29-7ad98bb9b2f6",
+      "user_id": "7f063fb9-740e-47e4-bdad-65381a312320",
+      "listing_id": "405db018-b438-4534-b491-8edb8cdc0bbf",
+      "score": 1.41,
+      "recommendation_reason": ""
+    },
+    {
+      "recommendation_id": "58d4ec5b-786b-4a95-baa7-a9b12af56723",
+      "user_id": "7f063fb9-740e-47e4-bdad-65381a312320",
       "listing_id": "049c86c2-d8bf-4731-8a3d-35b4c0c29867",
       "score": 1.41,
       "recommendation_reason": ""

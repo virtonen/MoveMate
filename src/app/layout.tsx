@@ -26,8 +26,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full">
-      <body className="min-h-screen bg-[#0e0720] text-zinc-100 antialiased">
+    <html lang="en" className="h-full" suppressHydrationWarning>
+      <body className="min-h-screen bg-[#0e0720] text-zinc-100 antialiased" suppressHydrationWarning>
         <div className="min-h-screen bg-[radial-gradient(60%_70%_at_50%_0%,rgba(68,6,95,0.35)_0%,transparent_70%)]">
           {children}
         </div>
