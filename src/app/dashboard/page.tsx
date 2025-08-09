@@ -2,6 +2,7 @@
 import useSWR from "swr";
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
+import { Suspense } from "react";
 import type { Listing } from "@/lib/db";
 
 const fetcher = (url: string) => fetch(url).then((r) => r.json());
@@ -17,7 +18,7 @@ type Event = {
 
 type UserSummary = { location_intent: string };
 
-export default function DashboardPage() {
+function DashboardContent() {
   const sp = useSearchParams();
   const userId = sp.get("user_id");
   const { data, error } = useSWR(userId ? `/api/dashboard?user_id=${userId}` : null, fetcher);
@@ -76,5 +77,13 @@ export default function DashboardPage() {
         </ul>
       </section>
     </main>
+  );
+}
+
+export default function DashboardPage() {
+  return (
+    <Suspense fallback={<main className="mx-auto max-w-3xl px-4 py-10 text-zinc-300">Loading dashboard…</main>}>
+      <DashboardContent />
+    </Suspense>
   );
 }

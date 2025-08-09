@@ -11,6 +11,18 @@
       "interests": [
         "Running"
       ]
+    },
+    {
+      "user_id": "3422a53b-7182-4d2c-a7d3-2b3b2cd19a09",
+      "name": "",
+      "email": "",
+      "profile_url": "https://www.linkedin.com/in/virtonen/",
+      "location_intent": "San Francisco",
+      "budget_range": "Under $1,000",
+      "preferences": {},
+      "interests": [
+        "Running"
+      ]
     }
   ],
   "neighborhoods": [
@@ -175,6 +187,20 @@
       "user_id": "4d9b3906-e8c2-4b5a-af1b-ccc2fb738ec4",
       "listing_id": "842079b5-04c5-491d-a43a-c880cb981e3f",
       "score": 1.44,
+      "recommendation_reason": ""
+    },
+    {
+      "recommendation_id": "84d3987c-0d7f-4636-976f-b48542603705",
+      "user_id": "3422a53b-7182-4d2c-a7d3-2b3b2cd19a09",
+      "listing_id": "405db018-b438-4534-b491-8edb8cdc0bbf",
+      "score": 1.41,
+      "recommendation_reason": ""
+    },
+    {
+      "recommendation_id": "762e147c-eeed-4c67-b37d-f676e3da026e",
+      "user_id": "3422a53b-7182-4d2c-a7d3-2b3b2cd19a09",
+      "listing_id": "049c86c2-d8bf-4731-8a3d-35b4c0c29867",
+      "score": 1.41,
       "recommendation_reason": ""
     }
   ],

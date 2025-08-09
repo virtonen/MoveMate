@@ -162,7 +162,9 @@ function mkEvent(city: string, name: string, inDays: number, type: string, desc:
 
 export function uuid(): UUID {
   // Use randomUUID when available; fall back to simple
-  if ((crypto as any).randomUUID) return (crypto as any).randomUUID();
+  if ('randomUUID' in crypto && typeof crypto.randomUUID === 'function') {
+    return crypto.randomUUID();
+  }
   return Math.random().toString(36).slice(2) + Math.random().toString(36).slice(2);
 }
 

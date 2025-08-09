@@ -1,0 +1,7 @@
+{
+  "/api/dashboard/route": "/api/dashboard",
+  "/_not-found/page": "/_not-found",
+  "/api/submit/route": "/api/submit",
+  "/page": "/",
+  "/dashboard/page": "/dashboard"
+}
