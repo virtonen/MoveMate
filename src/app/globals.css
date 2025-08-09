@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #44065f;
+}
+
+* { box-sizing: border-box; }
+
+body { }

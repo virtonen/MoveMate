@@ -1,0 +1,210 @@
+{
+  "users": [
+    {
+      "user_id": "4d9b3906-e8c2-4b5a-af1b-ccc2fb738ec4",
+      "name": "",
+      "email": "",
+      "profile_url": "https://www.linkedin.com/in/virtonen/",
+      "location_intent": "New York",
+      "budget_range": "Under $1,000",
+      "preferences": {},
+      "interests": [
+        "Running"
+      ]
+    }
+  ],
+  "neighborhoods": [
+    {
+      "neighborhood_id": "87484289-d915-4efe-93e6-4d7d579ac633",
+      "name": "Mission",
+      "city": "San Francisco",
+      "amenities": [
+        "Parks",
+        "Gyms",
+        "BART"
+      ],
+      "safety_rating": 7.2,
+      "walkability_score": 9.1,
+      "public_transport_score": 8.7,
+      "average_rent": 2800
+    },
+    {
+      "neighborhood_id": "f35b4e10-f916-414d-b025-b60ff8409ac6",
+      "name": "Williamsburg",
+      "city": "New York",
+      "amenities": [
+        "Subway",
+        "Parks",
+        "Cafes"
+      ],
+      "safety_rating": 7.8,
+      "walkability_score": 9.4,
+      "public_transport_score": 9,
+      "average_rent": 3200
+    },
+    {
+      "neighborhood_id": "bf6147cf-d4ec-4e3b-97c0-15d9e3174d3f",
+      "name": "Back Bay",
+      "city": "Boston",
+      "amenities": [
+        "T",
+        "Parks",
+        "Museums"
+      ],
+      "safety_rating": 8.2,
+      "walkability_score": 9,
+      "public_transport_score": 8.6,
+      "average_rent": 2500
+    }
+  ],
+  "listings": [
+    {
+      "listing_id": "405db018-b438-4534-b491-8edb8cdc0bbf",
+      "address": "123 Valencia St, SF",
+      "neighborhood_id": "87484289-d915-4efe-93e6-4d7d579ac633",
+      "price": 2550,
+      "lease_length": "12 months",
+      "num_bedrooms": 1,
+      "num_bathrooms": 1,
+      "parking_available": true,
+      "move_in_date": "2025-08-09",
+      "amenities": [
+        "Gym",
+        "Cafe",
+        "BART"
+      ],
+      "listing_source": "MLS",
+      "last_updated": "2025-08-09T21:05:47.446Z"
+    },
+    {
+      "listing_id": "049c86c2-d8bf-4731-8a3d-35b4c0c29867",
+      "address": "456 Dolores St, SF",
+      "neighborhood_id": "87484289-d915-4efe-93e6-4d7d579ac633",
+      "price": 2950,
+      "lease_length": "12 months",
+      "num_bedrooms": 2,
+      "num_bathrooms": 1,
+      "parking_available": false,
+      "move_in_date": "2025-08-09",
+      "amenities": [
+        "Park",
+        "Yoga"
+      ],
+      "listing_source": "Craigslist",
+      "last_updated": "2025-08-09T21:05:47.446Z"
+    },
+    {
+      "listing_id": "f07c1cd5-1157-4201-a7fa-5bb262cfc530",
+      "address": "12 Bedford Ave, BK",
+      "neighborhood_id": "f35b4e10-f916-414d-b025-b60ff8409ac6",
+      "price": 3100,
+      "lease_length": "12 months",
+      "num_bedrooms": 1,
+      "num_bathrooms": 1,
+      "parking_available": false,
+      "move_in_date": "2025-08-09",
+      "amenities": [
+        "Subway",
+        "Nightlife"
+      ],
+      "listing_source": "StreetEasy",
+      "last_updated": "2025-08-09T21:05:47.446Z"
+    },
+    {
+      "listing_id": "842079b5-04c5-491d-a43a-c880cb981e3f",
+      "address": "85 Kent Ave, BK",
+      "neighborhood_id": "f35b4e10-f916-414d-b025-b60ff8409ac6",
+      "price": 3600,
+      "lease_length": "12 months",
+      "num_bedrooms": 2,
+      "num_bathrooms": 1,
+      "parking_available": true,
+      "move_in_date": "2025-08-09",
+      "amenities": [
+        "Waterfront",
+        "Gym"
+      ],
+      "listing_source": "Zillow",
+      "last_updated": "2025-08-09T21:05:47.446Z"
+    },
+    {
+      "listing_id": "0d684b11-3269-4287-b86a-569545440371",
+      "address": "77 Boylston St, Boston",
+      "neighborhood_id": "bf6147cf-d4ec-4e3b-97c0-15d9e3174d3f",
+      "price": 2200,
+      "lease_length": "12 months",
+      "num_bedrooms": 1,
+      "num_bathrooms": 1,
+      "parking_available": false,
+      "move_in_date": "2025-08-09",
+      "amenities": [
+        "T",
+        "Museum"
+      ],
+      "listing_source": "Zillow",
+      "last_updated": "2025-08-09T21:05:47.446Z"
+    },
+    {
+      "listing_id": "39d14f25-8de4-4017-959c-f054588f34eb",
+      "address": "14 Commonwealth Ave, Boston",
+      "neighborhood_id": "bf6147cf-d4ec-4e3b-97c0-15d9e3174d3f",
+      "price": 2600,
+      "lease_length": "12 months",
+      "num_bedrooms": 2,
+      "num_bathrooms": 1,
+      "parking_available": true,
+      "move_in_date": "2025-08-09",
+      "amenities": [
+        "Parking",
+        "Park"
+      ],
+      "listing_source": "MLS",
+      "last_updated": "2025-08-09T21:05:47.446Z"
+    }
+  ],
+  "recommendations": [
+    {
+      "recommendation_id": "ec810e9d-aa9d-49f4-8350-ebd1c9ea9da7",
+      "user_id": "4d9b3906-e8c2-4b5a-af1b-ccc2fb738ec4",
+      "listing_id": "f07c1cd5-1157-4201-a7fa-5bb262cfc530",
+      "score": 1.44,
+      "recommendation_reason": ""
+    },
+    {
+      "recommendation_id": "c10e8336-4c9b-4602-940f-ac0707feaa5a",
+      "user_id": "4d9b3906-e8c2-4b5a-af1b-ccc2fb738ec4",
+      "listing_id": "842079b5-04c5-491d-a43a-c880cb981e3f",
+      "score": 1.44,
+      "recommendation_reason": ""
+    }
+  ],
+  "city_events": [
+    {
+      "event_id": "a4ff3b18-fa06-404a-a146-d1e16ed3c60e",
+      "city": "San Francisco",
+      "event_name": "Mission Street Fair",
+      "event_date": "2025-08-16",
+      "event_type": "festival",
+      "event_description": "Food trucks, music, and local makers.",
+      "event_location": "Mission District"
+    },
+    {
+      "event_id": "344aa132-26f6-4812-935a-289591e99dd5",
+      "city": "New York",
+      "event_name": "Brooklyn Tech Meetup",
+      "event_date": "2025-08-19",
+      "event_type": "conference",
+      "event_description": "Talks and demos from local startups.",
+      "event_location": "Williamsburg"
+    },
+    {
+      "event_id": "ba7e0fc1-1577-4a3d-9cb2-b867fd5d6b65",
+      "city": "Boston",
+      "event_name": "Back Bay Art Walk",
+      "event_date": "2025-08-23",
+      "event_type": "festival",
+      "event_description": "Neighborhood galleries open house.",
+      "event_location": "Back Bay"
+    }
+  ]
+}
